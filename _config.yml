@@ -1,0 +1,19 @@
+# GitHub Pages configuration
+title: ngx-multi-select-input Demo
+description: Interactive demo for ngx-multi-select-input Angular component
+url: https://noredinebahri.github.io/ngx-multi-select-input-demo
+baseurl: /ngx-multi-select-input-demo
+
+# Build settings
+markdown: kramdown
+include:
+  - _redirects
+  - .nojekyll
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# SPA settings
+plugins:
+  - jekyll-seo-tag
